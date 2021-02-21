@@ -4,7 +4,7 @@
 [ext_resource path="res://src/Space/Asteroids.cs" type="Script" id=2]
 
 [sub_resource type="CapsuleShape2D" id=1]
-radius = 408.0
+radius = 2000.0
 height = 0.0
 
 [node name="Asteroid" type="RigidBody2D"]
@@ -13,10 +13,10 @@ gravity_scale = 0.0
 script = ExtResource( 2 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( 560, 480 )
+position = Vector2( 3120, 3360 )
 shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="."]
-position = Vector2( 544, 398.95 )
-scale = Vector2( 5.25, 4.75844 )
+position = Vector2( 3132, 2886.95 )
+scale = Vector2( 25.4688, 27.4799 )
 texture = ExtResource( 1 )
